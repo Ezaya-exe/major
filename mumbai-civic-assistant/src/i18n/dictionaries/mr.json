@@ -1,0 +1,39 @@
+{
+  "app.name": "मुंबई नागरी सहाय्यक",
+  "app.shortName": "नागरी सहाय्यक",
+  "app.tagline": "स्वतंत्र नागरी साधन. ही अधिकृत BMC सेवा नाही.",
+
+  "nav.home": "मुख्यपृष्ठ",
+  "nav.ask": "विचारा",
+  "nav.report": "तक्रार",
+  "nav.complaints": "तक्रारी",
+  "nav.about": "माहिती व विश्वास",
+  "nav.feedback": "अभिप्राय पाठवा",
+  "nav.language": "भाषा",
+  "nav.menu": "अधिक पर्याय",
+
+  "language.english": "English",
+  "language.hindi": "हिंदी",
+  "language.marathi": "मराठी",
+
+  "skip.toContent": "मुख्य सामग्रीवर जा",
+
+  "disclaimer.short": "स्वतंत्र नागरी साधन. ही अधिकृत BMC सेवा नाही.",
+
+  "footer.about": "माहिती",
+  "footer.privacy": "गोपनीयता",
+  "footer.feedback": "अभिप्राय",
+
+  "state.loading": "लोड होत आहे…",
+  "state.empty.title": "इथे अजून काही नाही",
+  "state.empty.body": "उपलब्ध झाल्यावर माहिती इथे दिसेल.",
+  "state.error.title": "काहीतरी चुकले",
+  "state.error.body": "कृपया पुन्हा प्रयत्न करा. अडचण कायम राहिल्यास नंतर या.",
+  "state.error.retry": "पुन्हा प्रयत्न करा",
+
+  "notFound.title": "पृष्ठ सापडले नाही",
+  "notFound.body": "आपण शोधत असलेले पृष्ठ अस्तित्वात नाही.",
+  "notFound.action": "मुख्यपृष्ठावर जा",
+
+  "placeholder.body": "ही स्क्रीन पुढील माइलस्टोनमध्ये तयार होईल."
+}
