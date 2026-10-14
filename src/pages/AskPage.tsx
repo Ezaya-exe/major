@@ -1,6 +1,7 @@
 import { useEffect, useState, type FormEvent } from "react";
 import { api, ApiError } from "../api/client";
 import type { AskResponse, Language, Topic } from "../api/types";
+import { useNavigate } from "react-router-dom";
 
 const en = {
   title: "Ask about a city service",
@@ -78,7 +79,8 @@ export function AskPage() {
   const [result, setResult] = useState<AskResponse | null>(null);
   const [topics, setTopics] = useState<Topic[]>([]);
   const L = LABELS[lang];
-
+  const navigate = useNavigate();
+  
   useEffect(() => {
     api.topics().then((r) => setTopics(r.topics)).catch(() => setTopics([]));
   }, []);
@@ -225,8 +227,17 @@ export function AskPage() {
             </div>
           )}
 
-          {/* Milestone 4: show a "Prepare complaint" button here when
-              result.intent === "complaint". */}
+                    {result.intent === "complaint" && (
+            <button
+              type="button"
+              onClick={() =>
+                navigate("/complaint", { state: { description: question, language: lang } })
+              }
+              className="rounded bg-blue-600 px-4 py-2 text-white"
+            >
+              {L.prepareComplaint}
+            </button>
+          )}
 
           {result.official_channel && (
             <div className="rounded bg-blue-50 p-3 text-sm">

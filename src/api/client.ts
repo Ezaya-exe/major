@@ -50,3 +50,12 @@ export const api = {
   feedback: (b: { rating: "up" | "down"; request_id?: string; comment?: string }) =>
     post<{ ok: boolean }>("/api/v1/feedback", b),
 };
+
+export function errorMessage(e: unknown): string {
+  if (e instanceof ApiError) {
+    return e.code === "network_error"
+      ? "Cannot reach the server. Is the backend running?"
+      : e.message;
+  }
+  return "Something went wrong.";
+}
