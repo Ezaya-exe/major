@@ -1,0 +1,39 @@
+{
+  "app.name": "मुंबई नागरिक सहायक",
+  "app.shortName": "नागरिक सहायक",
+  "app.tagline": "स्वतंत्र नागरिक साधन। यह आधिकारिक BMC सेवा नहीं है।",
+
+  "nav.home": "होम",
+  "nav.ask": "पूछें",
+  "nav.report": "शिकायत",
+  "nav.complaints": "शिकायतें",
+  "nav.about": "परिचय व भरोसा",
+  "nav.feedback": "प्रतिक्रिया भेजें",
+  "nav.language": "भाषा",
+  "nav.menu": "और विकल्प",
+
+  "language.english": "English",
+  "language.hindi": "हिंदी",
+  "language.marathi": "मराठी",
+
+  "skip.toContent": "मुख्य सामग्री पर जाएं",
+
+  "disclaimer.short": "स्वतंत्र नागरिक साधन। यह आधिकारिक BMC सेवा नहीं है।",
+
+  "footer.about": "परिचय",
+  "footer.privacy": "गोपनीयता",
+  "footer.feedback": "प्रतिक्रिया",
+
+  "state.loading": "लोड हो रहा है…",
+  "state.empty.title": "अभी यहाँ कुछ नहीं है",
+  "state.empty.body": "उपलब्ध होने पर सामग्री यहाँ दिखेगी।",
+  "state.error.title": "कुछ गलत हो गया",
+  "state.error.body": "कृपया फिर कोशिश करें। समस्या बनी रहे तो बाद में आएं।",
+  "state.error.retry": "फिर कोशिश करें",
+
+  "notFound.title": "पृष्ठ नहीं मिला",
+  "notFound.body": "आप जिस पृष्ठ की तलाश कर रहे थे वह मौजूद नहीं है।",
+  "notFound.action": "होम पर जाएं",
+
+  "placeholder.body": "यह स्क्रीन आने वाले माइलस्टोन में बनाई जाएगी।"
+}

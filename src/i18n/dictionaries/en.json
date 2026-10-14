@@ -1,0 +1,39 @@
+{
+  "app.name": "Mumbai Civic Assistant",
+  "app.shortName": "Civic Assistant",
+  "app.tagline": "Independent citizen tool. Not an official BMC service.",
+
+  "nav.home": "Home",
+  "nav.ask": "Ask",
+  "nav.report": "Report",
+  "nav.complaints": "Complaints",
+  "nav.about": "About & Trust",
+  "nav.feedback": "Send feedback",
+  "nav.language": "Language",
+  "nav.menu": "More options",
+
+  "language.english": "English",
+  "language.hindi": "हिंदी",
+  "language.marathi": "मराठी",
+
+  "skip.toContent": "Skip to main content",
+
+  "disclaimer.short": "Independent citizen tool. Not an official BMC service.",
+
+  "footer.about": "About",
+  "footer.privacy": "Privacy",
+  "footer.feedback": "Feedback",
+
+  "state.loading": "Loading…",
+  "state.empty.title": "Nothing here yet",
+  "state.empty.body": "Content will appear here once it's available.",
+  "state.error.title": "Something went wrong",
+  "state.error.body": "Please try again. If the problem continues, come back later.",
+  "state.error.retry": "Try again",
+
+  "notFound.title": "Page not found",
+  "notFound.body": "The page you were looking for doesn't exist.",
+  "notFound.action": "Go home",
+
+  "placeholder.body": "This screen is coming in an upcoming milestone."
+}

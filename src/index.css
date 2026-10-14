@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root { color-scheme: light; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    @apply bg-slate-50 text-slate-900 antialiased;
+    font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+  }
+
+  /* Devanagari gets more line-height so matras don't collide. */
+  :lang(hi), :lang(mr) {
+    font-family: 'Noto Sans Devanagari', Inter, system-ui, sans-serif;
+    line-height: 1.75;
+  }
+
+  /* Global, visible focus ring — never remove it. */
+  :focus-visible {
+    outline: none;
+    @apply ring-2 ring-primary-500 ring-offset-2 ring-offset-white;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.001ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
